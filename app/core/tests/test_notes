@@ -1,0 +1,8 @@
+Mocking:
+    Mocking is when you override or change the behavior of the dependencies of the code you are testing.
+    We use it because avoid unintended side-effects also isolate the code that we want to test.
+
+    !!! Never write test that depends on external services.
+        - Can't guarantee they will be available
+        - Makes tests unpredictable
+        - Sending spam emails
